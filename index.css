@@ -1,0 +1,107 @@
+body {
+  margin: 0 auto;
+  padding: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  max-width: 300px;
+}
+
+/*
+
+Style our app according to the provided design!
+
+green color -> #5f9341
+
+*/
+label {
+  color: #5f9341;
+  font-weight: 900;
+}
+
+
+input {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  height: 30px;
+  margin-bottom: 5px;
+  border: 1px solid #5f9341
+
+}
+
+button {
+  background-color: #5f9341;
+  padding: 10px 20px;
+  color: white;
+  height: 30px;
+  border: 1px solid #5f9341;
+  cursor: pointer;
+  font-weight: bold;
+}
+button:hover {
+  background-color: #3b6a2b;
+}
+
+#delete-btn {
+  background-color: #b53b3b;
+  
+
+}
+#delete-btn:hover {
+  background-color: #921b1b;
+}
+
+#tab-btn{
+  background-color: #473689;
+}
+#tab-btn:hover{
+  background-color: #280b78;
+}
+
+/* STYLE THE LIST ACCORDING TO THE DESIGN */
+ul {
+    list-style: none;
+    padding-left: 0;
+    margin-top: 20px;
+
+    
+}
+
+li {
+    margin-top: 5px;
+    padding: 5px;
+    border: 1px solid #5f9341;
+    background-color: white;
+    color: #5f9341;
+    font-weight: bold;
+    cursor: pointer;
+}
+li:hover {
+    background-color: #5f9341;
+    color: white;
+}
+
+a {
+    color: #5f9341;
+    text-decoration: none;
+    font-weight: bold;
+}
+a:hover {
+    color: white;
+}
+
+/* html, body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#box {
+  cursor: pointer;
+  background: lightseagreen;
+  padding: 40px;
+  width: 200px;
+  text-align: center;
+  margin: 20px auto;
+  color: white;
+  font-weight: bold;
+} */
